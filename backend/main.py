@@ -11,7 +11,7 @@ print("🟢 API KEY LOADED:", os.getenv("OPENAI_API_KEY"))
 
 app = FastAPI()
 
-origins = ["*"]  # In production, use: ["http://13.232.92.206:3000"]
+origins = ["*"]  # In production, use: ["http://13.213.43.174:3000"]
 
 app.add_middleware(
     CORSMiddleware,
