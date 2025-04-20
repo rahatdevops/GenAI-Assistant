@@ -17,7 +17,7 @@ export default function Navbar() {
           <Link href="https://www.youtube.com/@devopsshack" target="_blank">
             <Image src="/yt.svg" alt="YouTube" width={20} height={20} />
           </Link>
-          <Link href="https://www.linkedin.com/in/adityajaiswal7/" target="_blank">
+          <Link href="https://www.linkedin.com/in/saeed-mahmud-rahat-2574b166/" target="_blank">
             <Image src="/li.svg" alt="LinkedIn" width={20} height={20} />
           </Link>
         </nav>
