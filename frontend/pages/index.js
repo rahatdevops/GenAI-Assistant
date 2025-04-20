@@ -5,14 +5,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>GenAI Assistant | DevOps Shack</title>
+        <title>GenAI Assistant | Rahat Devops</title>
       </Head>
 
       <div className="flex flex-col min-h-screen bg-gradient-to-r from-purple-900 via-black to-blue-900 text-white font-sans">
 
         {/* Navbar */}
         <header className="flex items-center justify-between px-8 py-5 bg-[#0b0f19] shadow-md border-b border-gray-800">
-          <h1 className="text-xl font-bold text-purple-300">DevOps Shack</h1>
+          <h1 className="text-xl font-bold text-purple-300">Rahat Devops</h1>
           <nav className="space-x-6 text-sm">
             <Link href="/" className="hover:text-pink-400">Home</Link>
             <Link href="/interview" className="hover:text-pink-400">Interview Bot</Link>
@@ -65,7 +65,7 @@ export default function Home() {
 
         {/* Footer sticks to bottom */}
         <footer className="text-center text-sm text-gray-500 py-4 border-t border-gray-800">
-          © 2025 GenAI Assistant · <span className="text-purple-400">DevOps Shack</span>
+          © 2025 GenAI Assistant · <span className="text-purple-400">Rahat Devops</span>
         </footer>
       </div>
     </>
